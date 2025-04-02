@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoCBGV"
+    >
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imagegvinfo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/calculator"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_tengv"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyen Ngoc Quynh Chau"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/tv_magv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ma giang vien: "
+        android:layout_margin="10dp"
+
+        />
+    <TextView
+        android:id="@+id/tv_sdtgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="So dien thoai: "
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/tv_dcgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dia chi: "
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/tv_emailgv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/tv_khoagv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Khoa: "
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/tv_bomongv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bo Mon: "
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btn_qlai"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="Quay lai"/>
+
+</LinearLayout>

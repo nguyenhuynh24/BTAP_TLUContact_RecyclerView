@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlt_cbgv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_cbgv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="15dp" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/img_cbgv"
+        android:text="Ten Don Vi"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_sdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_toEndOf="@+id/img_cbgv"
+        android:text="So dien thoai: " />
+
+    <TextView
+        android:id="@+id/tv_dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_sdt"
+        android:layout_toEndOf="@+id/img_cbgv"
+        android:text="Dia chi: " />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_dc"
+        android:layout_toEndOf="@+id/img_cbgv"
+        android:text="'@gmail.com" />
+</RelativeLayout>

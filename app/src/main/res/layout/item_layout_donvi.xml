@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rltdv">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img_donvi"
+        android:layout_margin="15dp"
+        />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ten Don Vi"
+        android:layout_toEndOf="@+id/img_donvi"
+        android:textSize="20dp"
+        android:textColor="@color/design_default_color_primary"/>
+    <TextView
+        android:id="@+id/tv_sdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="So dien thoai: "
+        android:layout_toEndOf="@+id/img_donvi"
+        android:layout_below="@id/tv_title"/>
+    <TextView
+        android:id="@+id/tv_dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dia chi: "
+        android:layout_toEndOf="@+id/img_donvi"
+        android:layout_below="@id/tv_sdt"/>
+</RelativeLayout>
